@@ -11,6 +11,8 @@ CREATE TABLE suppliers (
     created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );
 
+
+
 -- Product Suppliers Table (Mapping suppliers to products)
 CREATE TABLE product_suppliers (
     supplier_id INT,
@@ -19,6 +21,8 @@ CREATE TABLE product_suppliers (
     last_updated TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
     PRIMARY KEY (supplier_id, product_id)
 );
+
+
 
 -- Insert 100 supplier records
 INSERT INTO suppliers (supplier_name, contact_name, phone, email, address, city, country) VALUES
