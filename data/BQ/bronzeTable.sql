@@ -11,6 +11,8 @@ OPTIONS (
 );
 
 
+
+
 CREATE EXTERNAL TABLE IF NOT EXISTS `avd-databricks-demo.bronze_dataset.customers`
 (
     customer_id INT64,
