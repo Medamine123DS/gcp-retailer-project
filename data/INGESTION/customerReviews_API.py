@@ -8,6 +8,8 @@ from google.cloud import storage
 # Initialize Spark Session
 spark = SparkSession.builder.appName("CustomerReviewsAPI").getOrCreate()
 
+
+
 # API Endpoint
 API_URL = "https://67e51d5418194932a5849592.mockapi.io/retailer/reviews"
 
