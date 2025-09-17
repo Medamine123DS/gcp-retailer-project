@@ -20,8 +20,6 @@ GROUP BY 1, 2, 3, 4, 5;
 -----------------------------------------------------------------------------------------------------------
 -- 2. Customer Engagement Metrics (customer_engagement)
 
-
-
 CREATE TABLE IF NOT EXISTS `avd-databricks-demo.gold_dataset.customer_engagement`
 AS
 SELECT 
@@ -40,6 +38,7 @@ GROUP BY 1, 2, 6;
 
 -----------------------------------------------------------------------------------------------------------
 --3. Product Performance (product_performance)
+
 
 CREATE TABLE IF NOT EXISTS `avd-databricks-demo.gold_dataset.product_performance`
 AS
