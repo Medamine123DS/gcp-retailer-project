@@ -9,7 +9,9 @@ CREATE EXTERNAL TABLE IF NOT EXISTS `avd-databricks-demo.bronze_dataset.orders`(
 OPTIONS (
   format = 'JSON',
   uris = ['gs://retailer-datalake-project-27032025/landing/retailer-db/orders/*.json']
+    
 );
+
 
 
 
