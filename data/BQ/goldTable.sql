@@ -17,10 +17,10 @@ JOIN `avd-databricks-demo.silver_dataset.categories` c ON p.category_id = c.cate
 WHERE o.is_active = TRUE
 GROUP BY 1, 2, 3, 4, 5; 
 
-
-
 -----------------------------------------------------------------------------------------------------------
 -- 2. Customer Engagement Metrics (customer_engagement)
+
+
 
 CREATE TABLE IF NOT EXISTS `avd-databricks-demo.gold_dataset.customer_engagement`
 AS
@@ -64,6 +64,8 @@ WHERE p.is_quarantined = FALSE
 GROUP BY 1, 2, 3, 4, 5, 6;
 
 -----------------------------------------------------------------------------------------------------------
+
+
 --4. Supplier Performance (supplier_analysis)
 CREATE TABLE IF NOT EXISTS `avd-databricks-demo.gold_dataset.supplier_analysis`
 AS
