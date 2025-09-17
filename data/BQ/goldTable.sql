@@ -17,6 +17,8 @@ JOIN `avd-databricks-demo.silver_dataset.categories` c ON p.category_id = c.cate
 WHERE o.is_active = TRUE
 GROUP BY 1, 2, 3, 4, 5; 
 
+
+
 -----------------------------------------------------------------------------------------------------------
 -- 2. Customer Engagement Metrics (customer_engagement)
 
