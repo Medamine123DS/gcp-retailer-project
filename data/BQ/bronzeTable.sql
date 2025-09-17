@@ -52,6 +52,8 @@ OPTIONS (
 
 
 
+
+
 CREATE EXTERNAL TABLE IF NOT EXISTS `avd-databricks-demo.bronze_dataset.order_items`
 (
     order_item_id INT64,
@@ -62,6 +64,8 @@ CREATE EXTERNAL TABLE IF NOT EXISTS `avd-databricks-demo.bronze_dataset.order_it
     updated_at STRING
 )
 
+
+    
     
 OPTIONS (
     format = 'JSON',
