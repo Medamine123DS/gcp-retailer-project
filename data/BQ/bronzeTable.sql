@@ -24,8 +24,6 @@ OPTIONS (
     uris = ['gs://retailer-datalake-project-27032025/landing/retailer-db/customers/*.json']
 );
 
-
-
 CREATE EXTERNAL TABLE IF NOT EXISTS `avd-databricks-demo.bronze_dataset.products`
 (
     product_id INT64,
